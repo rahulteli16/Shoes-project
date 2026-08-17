@@ -1,118 +1,117 @@
 import React from 'react'
-import { FaInstagram } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaRegCopyright } from "react-icons/fa";
+import { Zap } from 'lucide-react'
+import { FaFacebook } from "react-icons/fa6";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
+import { FaCcVisa } from "react-icons/fa6";
+import { FaCcPaypal } from "react-icons/fa";
+import { FaGooglePay } from "react-icons/fa";
+import { FaApplePay } from "react-icons/fa";
+import { FaCcMastercard } from "react-icons/fa";
+import { FaRegCopyright } from "react-icons/fa6";
+import nikeSymbol from "../assets/nikeSymbol.png"
 
 const Nfooter = () => {
-    return (
-        <>
+    return (    
+        <div className='flex flex-col bg-black text-white gap-10 p-8'>
+            <div className='grid  grid-cols-4 justify-items-end max-lg:grid-cols-1 max-lg:gap-15 max-lg:place-items-center'>
 
-
-
-
-            <div className='grid grid-cols-4 py-2 px-4 bg-gray-800'>
-                <div className='flex flex-col gap-5'>
-                    <div>
-                        <p className='text-3xl text-red-500'>Customer Service</p>
+                <div className='flex flex-col  gap-10 max-lg:gap-6 max-lg:items-center'>
+                    <div className='flex max-lg:justify-center items-center'>
+                        <img src={nikeSymbol} alt="logo" className='size-20'/>
+                        <h2 className='text-2xl '>Nike</h2>
                     </div>
 
-                    <div className='flex flex-col gap-3 text-xl text-white'>
-                        <p className='hover:text-red-300'>Contact us</p>
-                        <p className='hover:text-red-300'>FAQs</p>
-                        <p className='hover:text-red-300'>Orders and delivery</p>
-                        <p className='hover:text-red-300'>Returns and refunds</p>
-                        <p className='hover:text-red-300'>Payment and pricing</p>
-                        <p className='hover:text-red-300'>Cryptocurrency payments</p>
-                        <p className='hover:text-red-300'>Promotion terms and conditions</p>
-                        <p className='hover:text-red-300'>FARFETCH Customer Promise</p>
+                    <div className='text-2xl'>
+                        <p>Preminum footwear for every step of your journey. From athletic performance to everyday comfort.</p>
+                    </div>
+
+
+                    <div className='flex gap-3 '>
+                        <IoLogoInstagram className='size-5 hover:scale-125 transition-all duration-300' />
+                        <FaFacebook className='size-5 hover:scale-125 transition-all duration-300' />
+                        <FaLinkedin className='size-5 hover:scale-125 transition-all duration-300' />
+                        <FaSquareXTwitter className='size-5 hover:scale-125 transition-all duration-300' />
+                        <FaYoutube className='size-5 hover:scale-125 transition-all duration-300' />
+
+                    </div>
+
+                </div>
+
+                <div className='flex flex-col gap-5 '>
+                    <div>
+                        <h1 className='text-red-400 text-2xl'>Shop</h1>
+                    </div>
+                    <div className='flex flex-col gap-2 text-xl'>
+                        <a href="#" className='hover:text-red-300'>Running</a>
+                        <a href="#" className='hover:text-red-300'>Sneakers</a>
+                        <a href="#" className='hover:text-red-300'>Basketball</a>
+                        <a href="#" className='hover:text-red-300'>Casual</a>
+                        <a href="#" className='hover:text-red-300'>Boots</a>
+                        <a href="#" className='hover:text-red-300'>Sandals</a>
                     </div>
                 </div>
 
 
 
-                <div className='flex flex-col gap-5'>
+                <div className='flex flex-col gap-5  max-lg:items-center'>
                     <div>
-                        <p className='text-2xl text-red-500'>About FARFETCH</p>
+                        <h1 className='text-red-400 text-2xl'>Help</h1>
                     </div>
 
-                    <div className='flex flex-col gap-3 text-xl text-white'>
-                        <p className='hover:text-red-300'>About us</p>
-                        <p className='hover:text-red-300'>FARFETCH partner boutiques</p>
-                        <p className='hover:text-red-300'>Careers</p>
-                        <p className='hover:text-red-300'>FARFETCH app</p>
-                        <p className='hover:text-red-300'>Modern slavery statement</p>
-                        <p className='hover:text-red-300'>FARFETCH advertising</p>
-                        <p className='hover:text-red-300'>sitemap</p>
+                    <div className='flex flex-col gap-2 max-lg:items-center text-xl'>
+                        <a href="#" className='hover:text-red-300'>FAQ</a>
+                        <a href="#" className='hover:text-red-300'>Shipping </a>
+                        <a href="#" className='hover:text-red-300'>Size Guide</a>
+                        <a href="#" className='hover:text-red-300'>Contact Us</a>
+                        <a href="#" className='hover:text-red-300'>Track Order</a>
                     </div>
                 </div>
 
 
-
-
-                <div className='flex flex-col gap-5'>
+                <div className='flex flex-col gap-5 lg:mr-8'>
                     <div>
-                        <p className='text-2xl text-red-500'>Discounts and membership</p>
-                    </div>
-                    <div className='flex flex-col gap-3 text-xl text-white'>
-                        <p className='hover:text-red-300'>Affilliate program</p>
-                        <p className='hover:text-red-300'>refer a friend</p>
-                        <p className='hover:text-red-300'>FARFETCH membership</p>
-                        <p className='hover:text-red-300'>Student discount UNiDAYS</p>
-                        <p className='hover:text-red-300'>Student and youth discount</p>
-                    </div>
-                </div>
-
-
-
-                <div className='flex flex-col gap-5'>
-                    <div>
-                        <p className='text-2xl text-red-500'>Content and Services</p>
-                    </div>
-                    <div className='text-xl text-white'>
-                        <p>Fashion Feed: the latest style stories</p>
+                        <h1 className='text-red-400 text-2xl'>About</h1>
                     </div>
 
-
-                    <div className='flex flex-col gap-5'>
-                        <div className='text-xl text-white'>
-                            <p>Follow us</p>
-                        </div>
-
-                        <div className='flex gap-5 items-center text-white'>
-                            <FaInstagram className='size-9 hover:scale-125 transition-all duration-500 ease-in-out' />
-                            <FaFacebook className='size-9 hover:scale-125 transition-all duration-500 ease-in-out' />
-                            <FaYoutube className='size-9 hover:scale-125 transition-all duration-500 ease-in-out' />
-                        </div>
-
+                    <div className='flex flex-col gap-2 text-xl'>
+                        <a href="#" className='hover:text-red-300'>Our Story</a>
+                        <a href="#" className='hover:text-blue-300'>Sustainblilty</a>
+                        <a href="#" className='hover:text-red-300'>Athletes</a>
+                        <a href="#" className='hover:text-red-300'>Careers</a>
+                        <a href="#" className='hover:text-red-300'>Store Locator</a>
                     </div>
                 </div>
             </div>
 
 
-
-
-            {/* bottom part */}
-            <div className='py-15 pb-4 px-4 flex flex-col gap-5  bg-gray-800'>
-                <div className='flex  gap-6 text-white text-xl'>
-                    <a href="#" className='underline hover:text-red-300'>Privacy policy</a>
-                    <a href="#" className='underline hover:text-red-300'>Terms and conditions</a>
-                    <a href="#" className='underline hover:text-red-300'>Accessibility</a>
+            <div className='flex justify-between items-center max-lg:flex-col max:lg:flex-col gap-4'>
+                <div className='flex gap-2  items-center'>
+                    <FaRegCopyright/>
+                    <p>2026 Nike.All rights reserved</p>
                 </div>
 
-                <div className='text-white text-xl'>
-                    <p>'FARFETCH' and the 'FARFETCH' LOGO ARE TRADE MARKS OF FARFETCH UK Limited and are registered in numerous jurisdictions around the world.</p>
 
-                    <div className='flex gap-1 items-center'>
-                        <FaRegCopyright />
-                        <p>Copyright 2026 FARFETCH UK Limited. All rights reserved.</p>
+
+                <div className='flex gap-6 max-sm:flex-col max-sm:items-center'>
+                    <div className='flex gap-5 items-center'>
+                        <a href="#" className='hover:text-red-400'>Privacy Policy</a>
+                        <a href="#" className='hover:text-red-400'>Terms & Conditions</a>
+                    </div>  
+
+                    <div className='flex gap-3'>
+                        <FaCcVisa className='size-8 hover:scale-125 transition-all duration-300' />
+                        <FaGooglePay className='size-8 hover:scale-125 transition-all duration-300' />
+                        <FaCcPaypal className='size-8 hover:scale-125 transition-all duration-300' />
+                        <FaApplePay className='size-8 hover:scale-125 transition-all duration-300' />
+                        <FaCcMastercard className='size-8 hover:scale-125 transition-all duration-300' />
                     </div>
                 </div>
             </div>
 
-        </>
-
-
+        </div>
     )
 }
 

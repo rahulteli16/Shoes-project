@@ -58,7 +58,7 @@ const Nfooter = () => {
 
                 <div className='flex flex-col gap-5  max-lg:items-center'>
                     <div>
-                        <h1 className='text-red-400 text-3xl'>Help</h1>
+                        <h1 className='text-red-400 text-2xl'>Help</h1>
                     </div>
 
                     <div className='flex flex-col gap-2 max-lg:items-center text-xl'>

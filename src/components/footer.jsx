@@ -14,13 +14,13 @@ import { FaRegCopyright } from "react-icons/fa6";
 import nikeSymbol from "../assets/nikeSymbol.png"
 
 const Nfooter = () => {
-    return (    
+    return (
         <div className='flex flex-col bg-black text-white gap-10 p-8'>
             <div className='grid  grid-cols-4 justify-items-end max-lg:grid-cols-1 max-lg:gap-15 max-lg:place-items-center'>
 
                 <div className='flex flex-col  gap-10 max-lg:gap-6 max-lg:items-center'>
                     <div className='flex max-lg:justify-center items-center'>
-                        <img src={nikeSymbol} alt="logo" className='size-20'/>
+                        <img src={nikeSymbol} alt="logo" className='size-20' />
                         <h2 className='text-2xl '>Nike</h2>
                     </div>
 
@@ -89,7 +89,7 @@ const Nfooter = () => {
 
             <div className='flex justify-between items-center max-lg:flex-col max:lg:flex-col gap-4'>
                 <div className='flex gap-2  items-center'>
-                    <FaRegCopyright/>
+                    <FaRegCopyright />
                     <p>2026 Nike.All rights reserved</p>
                 </div>
 
@@ -99,7 +99,7 @@ const Nfooter = () => {
                     <div className='flex gap-5 items-center'>
                         <a href="#" className='hover:text-red-400'>Privacy Policy</a>
                         <a href="#" className='hover:text-red-400'>Terms & Conditions</a>
-                    </div>  
+                    </div>
 
                     <div className='flex gap-3'>
                         <FaCcVisa className='size-8 hover:scale-125 transition-all duration-300' />

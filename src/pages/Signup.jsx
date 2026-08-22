@@ -53,7 +53,7 @@ const Signup = () => {
                         <p>Password</p>
                         <input type="text" placeholder=' Enter your password' className='border-2 rounded focus:ring-2 focus:ring-green-700 focus:outline-none w-full' />
                         <p>Minimun length is 8 characters</p>
-                        <BiSolidHide className='absolute right-3 top-1/2 -translate-y-1/2 ' />
+                        <BiSolidHide className='absolute right-3 top-1/2 -translate-y-1/2 ' />  
                     </div>
 
 

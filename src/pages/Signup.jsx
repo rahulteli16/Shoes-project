@@ -8,7 +8,7 @@ import { BiSolidHide } from "react-icons/bi";
 
 const Signup = () => {
     return (
-        <div className='flex min-h-screen   justify-center items-center bg-black'>
+        <div className='flex min-h-screen   justify-end pr-50 items-center bg-right' style={{backgroundImage : `url(${nikeimg2})`}}>
 
             <div className='w-[540px]  flex flex-col space-y-10 p-10     items-center  border-2 shadow-2xl rounded-2xl m-6 bg-amber-50'>
 

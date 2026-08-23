@@ -6,15 +6,16 @@ import { FaFacebook } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
 import { BiSolidHide } from "react-icons/bi";
 
+
 const Signin = () => {
   return (
     <div className='min-h-screen'>
-      <div className='flex min-h-screen bg-black text-black justify-center p-3'>
+      <div className='flex min-h-screen bg-right text-black justify-end pr-50 p-3' style={{backgroundImage : `url(${nikeimg2})`}}>
 
 
 
         {/* form part */}
-        <div className='w-[540px]  text-black bg-amber-50 rounded-2xl'>
+        <div className='w-[540px]  text-black bg-amber-50 rounded-4xl'>
           <div className='flex flex-col  items-center sm:p-10'>
 
 

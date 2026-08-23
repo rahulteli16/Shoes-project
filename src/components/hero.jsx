@@ -1,5 +1,5 @@
 import React from 'react'
-import shoes from "../assets/shoes.png"
+import menshoes from "../assets/menshoes.png"
 
 const Nhero = () => {
   return (
@@ -34,7 +34,7 @@ const Nhero = () => {
        
         {/* right part */}
         <div className='w-6/12 flex items-center justify-center'>
-            <img src={shoes} alt="Nike shoes" className='hover:scale-105 transition-all duration-500 ease-in-out'/>
+            <img src={menshoes} alt="Nike shoes" className='hover:scale-105 transition-all duration-500 ease-in-out'/>
         </div>
     </div>
   )

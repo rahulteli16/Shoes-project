@@ -1,0 +1,209 @@
+import React from 'react'
+import Menshoes from "../assets/menshoes.png"
+
+
+const Men = () => {
+    return (
+        <>
+            <div className='flex justify-center items-center text-4xl p-5 font-semibold'>
+                <h1>Men's Shoes</h1>
+            </div>
+
+            <div className='grid grid-cols-4 gap-6 p-6'>
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+
+                <div className='border border-gray-200'>
+                    <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />
+                    <div className='p-5'>
+                        <p className='text-gray-500'>Men's Shoes</p>
+                        <h2 className='font-semibold'>Nike Air Liquid Max</h2>
+                        <p className='font-bold'>₹19,995</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </>
+    )
+}
+
+export default Men

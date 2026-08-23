@@ -12,6 +12,7 @@ import { FaApplePay } from "react-icons/fa";
 import { FaCcMastercard } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa6";
 import nikeSymbol from "../assets/nikeSymbol.png"
+import { Link } from "react-router-dom";
 
 const Nfooter = () => {
     return (
@@ -62,7 +63,12 @@ const Nfooter = () => {
                     </div>
 
                     <div className='flex flex-col gap-2 max-lg:items-center text-xl'>
-                        <a href="#" className='hover:text-red-300'>FAQ</a>
+
+                        <Link to="/faq">
+                            <a href="#" className='hover:text-red-300'>FAQ</a>
+                        </Link>
+
+
                         <a href="#" className='hover:text-red-300'>Shipping </a>
                         <a href="#" className='hover:text-red-300'>Size Guide</a>
                         <a href="#" className='hover:text-red-300'>Contact Us</a>

@@ -2,12 +2,12 @@ import React from 'react'
 import NikeVideo from "./video/NikeVideo.mp4"
 import { Link } from "react-router-dom";
 
-const Videonike = () => {
+const Videonike = () => {   
     return (
         <div>
             <div className='relative'>
 
-                <video src={NikeVideo} controls autoPlay loop muted></video>
+                <video src={NikeVideo}  autoPlay loop muted></video>
 
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent"></div>
 

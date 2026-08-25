@@ -17,6 +17,7 @@ import Men from "./pages/Men";
 import Women from "./pages/Women";
 import Kids from "./pages/Kids";
 import FAQ from "./pages/FAQ";
+import ScrollToTop from "./pages/ScrollToTop.jsx"
 
 
 
@@ -27,6 +28,8 @@ function App() {
     <>
       <Nnavbar />
 
+      <ScrollToTop />
+      <main className="pt-20"></main>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signin" element={<Signin />} />

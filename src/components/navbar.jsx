@@ -19,7 +19,7 @@ const Nnavbar = () => {
             {/* left part */}
             <div className='flex items-center  gap-10'>
                 <div>
-                    <Link to="/"     onClick={() => window.scrollTo(0, 0)}>
+                    <Link to="/" onClick={() => window.scrollTo(0, 0)}>
                         <img src={NikeSymbol} alt="symbol" className='size-22' />
                     </Link>
 
@@ -41,7 +41,7 @@ const Nnavbar = () => {
                 {/* menu */}
                 <div className='flex gap-10 text-xl'>
 
-                    <Link to="/"     onClick={() => window.scrollTo(0, 0)}>
+                    <Link to="/" onClick={() => window.scrollTo(0, 0)}>
                         <a href="#" className='hover:text-red-400'>Home</a>
                     </Link>
 
@@ -72,10 +72,14 @@ const Nnavbar = () => {
                 {/* icon */}
                 <div className='flex  gap-7'>
 
-                    <div className='relative'>
-                        <ShoppingCart className='size-8 hover:scale-110' />
-                        <p className='absolute  -top-2 -right-2 bg-red-600 rounded-full size-5 flex justify-center items-center text-xs text-white'>2</p>
-                    </div>
+
+                    <Link to="bag">
+                        <div className='relative'>
+                            <ShoppingCart className='size-8 hover:scale-110' />
+                            <p className='absolute  -top-2 -right-2 bg-red-600 rounded-full size-5 flex justify-center items-center text-xs text-white'>2</p>
+                        </div>
+                    </Link>
+
 
 
 

@@ -18,6 +18,7 @@ import Women from "./pages/Women";
 import Kids from "./pages/Kids";
 import FAQ from "./pages/FAQ";
 import ScrollToTop from "./pages/ScrollToTop.jsx"
+import Bag from "./pages/bag.jsx";
 
 
 
@@ -40,6 +41,7 @@ function App() {
         <Route path="/women" element={<Women />} />
         <Route path="/kids" element={<Kids />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/bag" element={<Bag />} />
       </Routes>
 
       <Nfooter />

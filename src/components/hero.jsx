@@ -31,7 +31,6 @@ const Nhero = () => {
 
 
 
-
             {/* right part */}
             <div className='w-6/12 flex items-center justify-center '>
                 <img src={menshoes} alt="Nike shoes" className='hover:scale-105 transition-all duration-500 ease-in-out max-sm:size-70' />

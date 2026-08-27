@@ -93,7 +93,7 @@ const Nfooter = () => {
             </div>
 
 
-            <div className='flex justify-between items-center max-lg:flex-col max:lg:flex-col gap-4'>
+            <div className='flex justify-between items-center max-lg:flex-col  gap-4'>
                 <div className='flex gap-2  items-center'>
                     <FaRegCopyright />
                     <p>2026 Nike.All rights reserved</p>

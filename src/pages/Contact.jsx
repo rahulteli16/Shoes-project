@@ -6,9 +6,9 @@ const ContactNike = () => {
     return (
         <div>
 
-            <div className='flex min-h-screen justify-center bg-center bg-cover  items-center p-10 text-white' style={{ backgroundImage: `url(${nikeimg2})` }}>
+            <div className='flex flex-col lg:flex-row gap-10 lg:gap-16 min-h-screen justify-center bg-center bg-cover  items-center lg:px-5 py-10 sm:px-10 text-white' style={{ backgroundImage: `url(${nikeimg2})` }}>
                 {/* left part     */}
-                <div className='flex flex-col w-6/12 gap-6'>
+                <div className='w-full flex flex-col lg:w-1/2 justify-center gap-5 px-4'>
                     <div className='text-5xl font-bold'>
                         <p>Get in ---</p>
                         <p>touch with us</p>
@@ -31,12 +31,12 @@ const ContactNike = () => {
                 </div>
 
                 {/* right part */}
-                <div className='w-6/12 flex justify-center'>
+                <div className='w-full lg:w-1/2 flex justify-center px-4'>
 
-                    <div className='flex flex-col gap-8 border rounded-2xl p-10 h-[500px] w-[550px] border-yellow-100'>
+                    <div className='flex flex-col gap-8 border rounded-2xl p-10  sm:p-10 lg:p-10 w-full max-w-[550px] border-yellow-100 '>
 
 
-                        <div className='flex justify-between'>
+                        <div className='flex flex-col lg:flex-row gap-5 justify-between'>
                             <div className='flex flex-col gap-2'>
                                 <p>First Name</p>
                                 <input type="text" name="" id="" placeholder='Enter your first name' className='border rounded-2xl p-2 border-yellow-100' />
@@ -59,8 +59,8 @@ const ContactNike = () => {
                             <textarea name="" id="" placeholder='Enter Your message..' className='border rounded-2xl p-2 w-full border-yellow-100'></textarea>
                         </div>
 
-                        <div className='w-full relative'>
-                            <div className='absolute justify-end flex bg-black text-white rounded-2xl px-5  py-2 items-center gap-6 right-0 border border-yellow-100'>
+                        <div className='flex justify-end'>
+                            <div className='flex bg-black text-white rounded-2xl px-5  py-3 items-center gap-3  border border-yellow-100 hover:scale-105 transition-all duration-300'>
                                 <FaArrowRight className='bg-white text-black rounded-2xl text-xl p-1' />
                                 <button className=''>Send Message</button>
                             </div>

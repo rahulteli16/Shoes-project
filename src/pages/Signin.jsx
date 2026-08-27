@@ -10,12 +10,12 @@ import { BiSolidHide } from "react-icons/bi";
 const Signin = () => {
   return (
     <div className='min-h-screen'>
-      <div className='flex min-h-screen bg-right text-black justify-end pr-50 p-3' style={{backgroundImage : `url(${nikeimg2})`}}>
+      <div className='flex max-lg:flex-col  min-h-screen bg-cover bg-center text-black justify-end lg:px-16 xl:px-32 p-3' style={{ backgroundImage: `url(${nikeimg2})` }}>
 
 
 
         {/* form part */}
-        <div className='w-[540px]  text-black bg-amber-50 rounded-4xl'>
+        <div className='max-w-[540px] w-full max-lg:p-5 max-sm:m-2 text-black bg-amber-50 rounded-4xl px-4'>
           <div className='flex flex-col  items-center sm:p-10'>
 
 

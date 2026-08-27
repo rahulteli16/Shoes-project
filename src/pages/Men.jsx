@@ -9,7 +9,7 @@ const Men = () => {
                 <h1>Men's Shoes</h1>
             </div>
 
-            <div className='grid grid-cols-4 gap-6 p-6'>
+            <div className='grid grid-cols-4 max-lg:grid-cols-2 gap-6 p-6'>
 
                 <div className='border border-gray-200'>
                     <img src={Menshoes} alt="" className='h-64 object-contain w-full p-4' />

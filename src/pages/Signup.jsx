@@ -8,9 +8,9 @@ import { BiSolidHide } from "react-icons/bi";
 
 const Signup = () => {
     return (
-        <div className='flex min-h-screen   justify-end pr-50 items-center bg-right' style={{backgroundImage : `url(${nikeimg2})`}}>
+        <div className='flex min-h-screen   justify-end lg:px-16 lg:px-16 xl:px-32 items-center bg-right' style={{ backgroundImage: `url(${nikeimg2})` }}>
 
-            <div className='w-[540px]  flex flex-col space-y-10 p-10     items-center  border-2 shadow-2xl rounded-2xl m-6 bg-amber-50'>
+            <div className='max-w-[540px] w-full flex flex-col space-y-10 p-10     items-center  border-2 shadow-2xl rounded-2xl m-6 bg-amber-50'>
 
 
 
@@ -29,12 +29,12 @@ const Signup = () => {
                     <div className='flex flex-col lg:flex-row justify-between gap-3'>
                         <div>
                             <p>First Name</p>
-                            <input type="text" placeholder=' Firstname' className='border-2  rounded focus:ring-2 focus:ring-green-300 focus:outline-none ' />
+                            <input type="text" placeholder=' Firstname' className='border-2  rounded focus:ring-2 focus:ring-green-300 focus:outline-none w-full ' />
                         </div>
 
                         <div>
                             <p>Last Name</p>
-                            <input type="text" placeholder=' Lastname' className='border-2 rounded focus:ring-2 focus:ring-green-700 focus:outline-none' />
+                            <input type="text" placeholder=' Lastname' className='border-2 rounded focus:ring-2 focus:ring-green-700 focus:outline-none w-full' />
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@ const Signup = () => {
                         <p>Password</p>
                         <input type="text" placeholder=' Enter your password' className='border-2 rounded focus:ring-2 focus:ring-green-700 focus:outline-none w-full' />
                         <p>Minimun length is 8 characters</p>
-                        <BiSolidHide className='absolute right-3 top-1/2 -translate-y-1/2 ' />  
+                        <BiSolidHide className='absolute right-3 top-1/2 -translate-y-1/2 ' />
                     </div>
 
 

@@ -3,7 +3,7 @@ import menshoes from "../assets/menshoes.png"
 
 const Nhero = () => {
     return (
-        <div className='flex flex-col lg:flex-row min-h-screen w-full justify-center items-center bg-black p-8 sm:text-5xl md:text-6xl lg:text-6xl'>
+        <div className='flex flex-col lg:flex-row min-h-screen w-full justify-center items-center bg-black p-8 sm:text-5xl md:text-6xl lg:text-6xl max-sm:gap-10 '>
             {/* left part */}
             <div className='w-full lg:w-1/2 flex flex-col gap-10'>
 
@@ -33,8 +33,8 @@ const Nhero = () => {
 
 
             {/* right part */}
-            <div className='w-6/12 flex items-center justify-center'>
-                <img src={menshoes} alt="Nike shoes" className='hover:scale-105 transition-all duration-500 ease-in-out' />
+            <div className='w-6/12 flex items-center justify-center '>
+                <img src={menshoes} alt="Nike shoes" className='hover:scale-105 transition-all duration-500 ease-in-out max-sm:size-70' />
             </div>
         </div>
     )

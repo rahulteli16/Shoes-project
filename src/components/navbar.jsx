@@ -44,27 +44,27 @@ const Nnavbar = () => {
                     <div className='flex gap-10 text-xl'>
 
                         <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-                            <a href="#" className='hover:text-red-400'>Home</a>
+                            Home
                         </Link>
 
 
-                        <Link to="/Men">
-                            <a href="#" className='hover:text-red-400'>Men</a>
+                        <Link to="/men">
+                            Men
                         </Link>
 
 
                         <Link to="/women">
-                            <a href="#" className='hover:text-red-400'>Women</a>
+                            Women
                         </Link>
 
 
                         <Link to="/kids">
-                            <a href="#" className='hover:text-red-400'>Kids</a>
+                            Kids
                         </Link>
 
 
                         <Link to="/contact">
-                            <a href="#" className='hover:text-red-400'>Contact</a>
+                            Contact
                         </Link>
 
                     </div>
@@ -75,7 +75,7 @@ const Nnavbar = () => {
                     <div className='flex  gap-7'>
 
 
-                        <Link to="bag">
+                        <Link to="/bag">
                             <div className='relative'>
                                 <ShoppingCart className='size-8 hover:scale-110' />
                                 <p className='absolute  -top-2 -right-2 bg-red-600 rounded-full size-5 flex justify-center items-center text-xs text-white'>2</p>
@@ -134,28 +134,28 @@ const Nnavbar = () => {
                     <div className="absolute top-full left-0 w-full bg-black text-white lg:hidden border-t border-gray-700">
                         <div className="flex flex-col items-center gap-6 py-8 text-lg">
 
-                            <Link to="/" onClick={() => menuOpen(false)}>
+                            <Link to="/" onClick={() => setMenuOpen(false)}>
                                 Home
                             </Link>
 
-                            <Link to="/Men" onClick={() => menuOpen(false)}>
+                            <Link to="/men" onClick={() => setMenuOpen(false)}>
                                 Men
                             </Link>
 
-                            <Link to="/women" onClick={() => menuOpen(false)}>
+                            <Link to="/women" onClick={() => setMenuOpen(false)}>
                                 Women
                             </Link>
 
-                            <Link to="/kids" onClick={() => menuOpen(false)}>
+                            <Link to="/kids" onClick={() => setMenuOpen(false)}>
                                 Kids
                             </Link>
 
-                            <Link to="/contact" onClick={() => menuOpen(false)}>
+                            <Link to="/contact" onClick={() => setMenuOpen(false)}>
                                 Contact
                             </Link>
 
                             <div className="flex gap-8 items-center">
-                                <Link to="/bag" onClick={() => menuOpen(false)}>
+                                <Link to="/bag" onClick={() => setMenuOpen(false)}>
                                     <div className="relative">
                                         <ShoppingCart className="size-7" />
                                         <span className="absolute -top-2 -right-2 bg-red-600 rounded-full size-5 flex justify-center items-center text-xs">
@@ -169,11 +169,11 @@ const Nnavbar = () => {
                                     <MdAccountCircle className='size-8' />
                                     <div className='absolute invisible group-hover:visible opacity-0 group-hover:opacity-100 bg-white text-black p-5  rounded-xl'>
                                         <div className='flex gap-5'>
-                                            <Link to="/signin" onClick={() => menuOpen(false)}>
+                                            <Link to="/signin" onClick={() => setMenuOpen(false)}>
                                                 <p>Signin</p>
                                             </Link>
                                             <p>|</p>
-                                            <Link to="/signup" onClick={() => menuOpen(false)}>
+                                            <Link to="/signup" onClick={() => setMenuOpen(false)}>
                                                 <p>SignUp</p>
                                             </Link>
                                         </div>

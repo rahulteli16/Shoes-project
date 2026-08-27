@@ -37,7 +37,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/contact" element={<ContactNike />} />
         <Route path="/video" element={<Videonike />} />
-        <Route path="/Men" element={<Men />} />
+        <Route path="/men" element={<Men />} />
         <Route path="/women" element={<Women />} />
         <Route path="/kids" element={<Kids />} />
         <Route path="/faq" element={<FAQ />} />

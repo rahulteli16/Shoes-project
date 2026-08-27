@@ -18,7 +18,7 @@ const Nnavbar = () => {
         <>
             <div className='fixed w-full z-50 flex justify-between bg-black text-white px-4 max-lg:gap-5'>
                 {/* left part */}
-                <div className='flex items-center  gap-10'>
+                <div className='flex items-center  gap-10  max-lg:justify-center'>
                     <div>
                         <Link to="/" onClick={() => window.scrollTo(0, 0)}>
                             <img src={NikeSymbol} alt="symbol" className='size-22' />
@@ -28,11 +28,11 @@ const Nnavbar = () => {
 
 
 
-                    <div className='relative bg-white text-black flex items-center  rounded-2xl w-[180px] sm:w-[280px] md:w-[400px] lg:w-[480px] '>
+                    <div className='relative bg-white text-black flex items-center  rounded-2xl w-[120px] sm:w-[220px] md:w-[400px] lg:w-[480px]'>
 
-                        <input type="text" name="" id="" placeholder='Search Result' className='px-10 w-full py-2 rounded-2xl outline-none ' />
-                        <CiSearch className='absolute left-4 sm:left-4' />
-                        <FaMicrophone className='absolute right-5 hover:scale-110 transition-all duration-300 ease-in-out' />
+                        <input type="text" name="" id="" placeholder='Search Result' className='px-9 w-full py-2 rounded-2xl outline-none text-sm sm:text-base' />
+                        <CiSearch className='absolute left-3' />
+                        <FaMicrophone className='absolute right-3 hover:scale-110 transition-all duration-300 ease-in-out' />
                     </div>
 
                 </div>
@@ -165,27 +165,28 @@ const Nnavbar = () => {
                                 </Link>
 
 
-                                <div className=' relative group'>
-                                    <MdAccountCircle className='size-8' />
-                                    <div className='absolute invisible group-hover:visible opacity-0 group-hover:opacity-100 bg-white text-black p-5  rounded-xl'>
-                                        <div className='flex gap-5'>
-                                            <Link to="/signin" onClick={() => setMenuOpen(false)}>
-                                                <p>Signin</p>
-                                            </Link>
-                                            <p>|</p>
-                                            <Link to="/signup" onClick={() => setMenuOpen(false)}>
-                                                <p>SignUp</p>
-                                            </Link>
+                                <div className="relative">
+                                    <button onClick={() => setAccountOpen(!accountOpen)}>
+                                        <MdAccountCircle className="size-8" />
+                                    </button>
+                                    {accountOpen && (
+                                        <div className="absolute right-0 top-full mt-2 bg-white text-black p-4 rounded-xl shadow-lg">
+                                            <div className="flex gap-4">
+                                                <Link to="/signin" onClick={() => setAccountOpen(false)}>
+                                                    Sign In
+                                                </Link>
+
+                                                <span>|</span>
+
+                                                <Link to="/signup" onClick={() => setAccountOpen(false)}>
+                                                    Sign Up
+                                                </Link>
+                                            </div>
                                         </div>
-                                    </div>
+                                    )}
                                 </div>
-
-
-
-
-
-
                             </div>
+
 
                         </div>
                     </div>

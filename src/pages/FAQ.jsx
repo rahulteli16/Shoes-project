@@ -7,9 +7,9 @@ const FAQ = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className='h-full w-full border-5 p-10 flex flex-col gap-10 bg-amber-100'>
+        <div className='h-full w-full border-5 p-10 flex flex-col gap-10 bg-black'>
             <div>
-                <h1 className='flex justify-center text-4xl font-bold'>FAQ </h1>
+                <h1 className='flex justify-center text-4xl font-bold text-white'>FAQ </h1>
             </div>
 
 

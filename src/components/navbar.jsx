@@ -13,7 +13,7 @@ const Nnavbar = () => {
     const [accountOpen, setAccountOpen] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
 
-
+    
     return (
         <>
             <div className='fixed w-full z-50 flex justify-between bg-black text-white px-4 max-lg:gap-5'>

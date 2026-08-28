@@ -1,5 +1,6 @@
 import React from 'react'
 import menshoes from "../assets/menshoes.png"
+import { Link } from "react-router-dom";
 
 const Nhero = () => {
     return (
@@ -22,10 +23,11 @@ const Nhero = () => {
                     <p>The Nike Air Zoom Superrep 2 is designed for circuit training.HIIT,sprints and other fast-paced exercise. Layers of support team up with Zoom Air curshioning to keep your foot locked.</p>
                 </div>
 
-                <div>
-                    <button className='bg-red-600 text-white px-5 py-2 hover:bg-red-700 rounded hover:scale-110 transition-all duration-300 ease-in-out text-4xl max-sm:text-xl' >ADD TO BAG</button>
-                </div>
-
+                <Link to="/bag">
+                    <div>
+                        <button className='bg-red-600 text-white px-4 py-1 hover:bg-red-700 rounded hover:scale-110 transition-all duration-300 ease-in-out text-3xl max-sm:text-xl' >ADD TO BAG</button>
+                    </div>
+                </Link>
 
             </div>
 

@@ -1,13 +1,17 @@
 import React from 'react'
 import Nhero from './hero'
 import Videonike from '../pages/Videonike'
+import ContactNike from '../pages/Contact'
+import FAQ from "../pages/FAQ";
 
 
 const Home = () => {
   return (
     <div>
       <Nhero />
-      <Videonike />
+      <Videonike /> 
+      <FAQ />
+      <ContactNike />
     </div>
   )
 }
